@@ -1,18 +1,18 @@
 /* Import font from Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 /* Reset values */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     /* font-size: 16px; */
 }
 
 body {
     /* margin: 0 70px 0 70px; */
-    background-color: #FAF2D3;
+    background-color: #faf2d3;
 }
 
 /* Navigation */
@@ -22,10 +22,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav > img {
-    color: black;
 }
 
 nav > ul {
@@ -48,9 +44,137 @@ nav > ul > li > a:hover {
 /* Hero section */
 #hero {
     /* clear: both; */
-    /* padding: 30px 70px; */
-    display: inline;
+    /* padding: 0 70px; */
+    display: flex;
+    min-height: 550px;
+    border-bottom: 2px solid black;
 }
 
+.column {
+    width: 50%;
+}
 
+#column1 {
+    padding: 70px 100px 70px 70px;
+}
+#column1 > h1 {
+    font-size: 40px;
+    margin-bottom: 55px;
+}
 
+#column1 > p {
+    font-size: 19px;
+    margin-bottom: 75px;
+}
+
+#column1 > a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: #7ee081;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+#column1 > a:hover {
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+#column2 {
+    background-color: #c3e5c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2e section */
+#section2 {
+    display: flex;
+    min-height: 750px;
+    border-bottom: 2px solid black;
+    padding: 70px 100px 70px 70px;
+}
+#s2column1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 500px;
+    width: 50%;
+}
+
+#image {
+    background-image: url("../img/schalkwijk ingang 1.jpeg");
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    filter: saturate(2);
+}
+
+#s2column2 {
+    width: 50%;
+}
+
+#s2column2 > h1 {
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+#s2column2 > p {
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+#s2column2 > p > span {
+    font-weight: bold;
+}
+
+#s2column2 > a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: #7ee081;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+#s2column2 > a:hover {
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+/* footer */
+footer {
+    background-color: #ffcc70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+footer > a > img {
+    width: 170px;
+}
+
+#copyright{
+    font-size: 25px;
+}
+
+#socials{
+    font-size: 40px;
+    padding-left: 16px;
+ }
+
+#socials > i{
+   padding-left: 16px;
+   cursor: pointer;
+   transition: 0.3s ease;
+}
+#socials > i:hover{
+    font-size: 50px;
+    color: #745420;
+ }
