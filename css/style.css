@@ -57,6 +57,7 @@ nav > ul > li > a:hover {
 #column1 {
     padding: 70px 100px 70px 70px;
 }
+
 #column1 > h1 {
     font-size: 40px;
     margin-bottom: 55px;
@@ -97,6 +98,7 @@ nav > ul > li > a:hover {
     border-bottom: 2px solid black;
     padding: 70px 100px 70px 70px;
 }
+
 #s2column1 {
     display: flex;
     justify-content: center;
@@ -143,6 +145,7 @@ nav > ul > li > a:hover {
     border-radius: 10px;
     transition: 0.2s ease;
 }
+
 #s2column2 > a:hover {
     font-size: 21px;
     text-decoration: underline;
@@ -156,25 +159,62 @@ footer {
     align-items: center;
     padding: 20px 70px;
 }
+
 footer > a > img {
     width: 170px;
+    border-top: 2px black;
 }
 
-#copyright{
+#copyright {
     font-size: 25px;
 }
 
-#socials{
+#socials {
     font-size: 40px;
     padding-left: 16px;
- }
-
-#socials > i{
-   padding-left: 16px;
-   cursor: pointer;
-   transition: 0.3s ease;
 }
-#socials > i:hover{
+
+#socials > i {
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#socials > i:hover {
     font-size: 50px;
     color: #745420;
- }
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* Winkels page */
+#winkels {
+    padding: 0 70px;
+}
+
+#winkels:nth-child(3) {
+    background-color: #ffcc70;
+}
+
+.pagedesc {
+    margin: 50px 0;
+}
+
+.card {
+    display: flex;
+    margin: 30px 0;
+    background-color: #C3E5C1;
+}
+
+.shopthumbnail {
+    width: 250px;
+    border-radius: 15px 0 0 15px;
+}
+
+.winkeltext > span {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
