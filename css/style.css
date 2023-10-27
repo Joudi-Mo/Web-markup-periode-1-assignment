@@ -1,0 +1,56 @@
+/* Import font from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Reset values */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    /* font-size: 16px; */
+}
+
+body {
+    /* margin: 0 70px 0 70px; */
+    background-color: #FAF2D3;
+}
+
+/* Navigation */
+nav {
+    padding: 15px 70px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > img {
+    color: black;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+#hero {
+    /* clear: both; */
+    /* padding: 30px 70px; */
+    display: inline;
+}
+
+
+
