@@ -158,6 +158,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px 70px;
+    border-top: 2px solid black;
 }
 
 footer > a > img {
@@ -194,18 +195,16 @@ footer > a > img {
     padding: 0 70px;
 }
 
-#winkels:nth-child(3) {
-    background-color: #ffcc70;
-}
-
 .pagedesc {
     margin: 50px 0;
 }
 
 .card {
     display: flex;
+    flex-wrap: wrap;
     margin: 30px 0;
-    background-color: #C3E5C1;
+    background-color: #c3e5c1;
+    border-radius: 0 15px 15px 0;
 }
 
 .shopthumbnail {
@@ -214,7 +213,71 @@ footer > a > img {
 }
 
 .winkeltext > span {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.winkeltext > p > span {
+    font-weight: bold;
+    /* margin-left: 50px; */
+}
+
+.winkeltext > p,
+.winkeltext > a {
+    margin: 15px 50px;
+}
+
+.winkeltext > a {
+    color: #3085c3;
+}
+
+.winkeltext > a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.winkeltext > a:active {
+    color: #745420;
+}
+
+.winkeltext > a:visited {
+    color: #745420;
+}
+
+/* Evenementen */
+#evenementen {
+    padding: 0 70px;
+}
+#evenement1 {
+    background-color: #ffcc70;
+    padding: 40px 60px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+#evenement1 h1 {
+    margin-bottom: 20px;
+}
+#evenement1 ul {
+    margin: 0 0 20px 13px;
+}
+#evenement1 > ul > li > span {
+    margin-bottom: 200px;
+    font-weight: bold;
+}
+#evenement1 > p {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.alinea {
+    font-size: 19px;
+}
+
+.alinea span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
