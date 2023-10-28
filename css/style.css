@@ -281,3 +281,21 @@ footer > a > img {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* about */
+#about{
+    padding: 0 70px;
+}
+
+#about p{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#about img{
+    width: 70vw;
+    margin: 40px 0;
+    border-radius: 15px;
+}
+
+
