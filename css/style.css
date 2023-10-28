@@ -283,19 +283,47 @@ footer > a > img {
 }
 
 /* about */
-#about{
+#about {
     padding: 0 70px;
 }
 
-#about p{
+#about p {
     font-size: 19px;
     margin-bottom: 20px;
 }
 
-#about img{
+#about img {
     width: 70vw;
     margin: 40px 0;
     border-radius: 15px;
 }
 
+/* galerij */
+#galerij {
+    padding: 0 70px;
+}
 
+#slide{
+    background-image: url("../img/entree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 50px 0;
+    border-radius: 15px;
+}
+#slide2{
+    background-image: url("../img/entree2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 50px 0;
+    border-radius: 15px;
+}
+#slide3{
+    background-image: url("../img/entree3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 50px 0;
+    border-radius: 15px;
+}
